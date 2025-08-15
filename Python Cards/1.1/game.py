@@ -7,7 +7,7 @@ class Game:
 
         self.state = State(self.seed)
 
-    
+
 
 
 class State:
@@ -18,3 +18,9 @@ class State:
         self.current.player.turn = None
 
 
+
+class GamePile:
+    def __init__(self):
+        pass
+
+class PersonPile:
